@@ -1,3 +1,9 @@
+declare global {
+  interface Window {
+    webln: any;
+  }
+}
+
 export const AnswerQuality = {
   inaccurate: "Inaccurate information",
   poor: "Poorly worded",
@@ -33,6 +39,11 @@ export type AuthorConfig = {
   value: string;
   imgURL: string;
   questions: string[];
+};
+
+export type Invoice = {
+  payment_request: string;
+  r_hash: string;
 };
 
 type PromptOptions = {
