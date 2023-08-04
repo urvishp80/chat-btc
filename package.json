@@ -29,7 +29,7 @@
     "https": "^1.0.0",
     "jose": "^4.14.4",
     "keyword-extractor": "^0.0.25",
-    "next": "13.1.6",
+    "next": "^13.1.6",
     "next-axiom": "^0.17.0",
     "next-connect": "^0.13.0",
     "openai": "^3.2.1",
@@ -39,6 +39,7 @@
     "react-intersection-observer": "^9.5.2",
     "react-qr-code": "^2.0.11",
     "react-spinners": "^0.13.8",
+    "run": "^1.4.0",
     "typescript": "4.9.5",
     "uuid": "^9.0.0",
     "webln": "^0.3.2"
